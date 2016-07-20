@@ -19,4 +19,4 @@ thirdNumbers = [3, 6..20]
 mult n z = take n [z, z*2..]
 
 -- Create an infinite list [X, Y] and show Z
-infiniteList x y z = take z cycle [x, y]
+infiniteList x y z = take z (cycle [x, y])
